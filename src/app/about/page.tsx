@@ -46,10 +46,10 @@ export default function AboutPage() {
                             </div>
                             <div className="flex flex-col items-center text-center">
                                 <dt className="text-xl font-semibold leading-7 text-gray-900 mb-4">
-                                    國際肯定 (Recognition)
+                                    台灣第一 (Taiwan's No.1)
                                 </dt>
                                 <dd className="text-base leading-7 text-gray-600">
-                                    爭取國內外淨零系統商相關獎項（如創新服務獎），展現專業實力，與國際標準接軌。
+                                    致力於成為台灣最專業的能源轉型領導者，以創新服務與卓越品質，樹立業界標竿，與國際標準接軌。
                                 </dd>
                             </div>
                             <div className="flex flex-col items-center text-center">
