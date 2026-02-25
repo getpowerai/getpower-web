@@ -18,7 +18,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Jiyang Energy Group | Solar & Power Solutions",
+  title: "Giant Energy Group | Solar & Power Solutions",
   description: "Your trusted partner for solar energy, power consultancy, and sustainable building solutions.",
 };
 

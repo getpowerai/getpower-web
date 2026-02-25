@@ -125,7 +125,7 @@ export function Footer() {
                 </div>
                 <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
                     <p className="text-xs leading-5 text-gray-400">
-                        &copy; {new Date().getFullYear()} 吉陽能源集團 Jiyang Energy Group. All rights reserved.
+                        &copy; {new Date().getFullYear()} 吉陽能源集團 Giant Energy Group. All rights reserved.
                     </p>
                 </div>
             </div>
