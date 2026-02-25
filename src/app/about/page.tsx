@@ -15,9 +15,7 @@ export default function AboutPage() {
                             Power the world with Giant Energy
                         </h1>
                         <p className="mt-6 text-xl leading-8 text-gray-200">
-                            以誠信與創新，引領能源轉型。
-                            <br />
-                            我們致力於提供給世界更棒、更永續的能源解決方案。
+                            我們致力於提供給世界更棒的能源解決方案。
                         </p>
                     </div>
                 </div>
