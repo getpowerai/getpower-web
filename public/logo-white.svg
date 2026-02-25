@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <defs>
+    <linearGradient id="sunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F58220;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon Section -->
+  <g transform="translate(10, 10)">
+    <!-- Sun rays -->
+    <path d="M30 0 L30 10 M30 50 L30 60 M0 30 L10 30 M50 30 L60 30 M8.7 8.7 L15.8 15.8 M44.2 44.2 L51.3 51.3 M8.7 51.3 L15.8 44.2 M44.2 15.8 L51.3 8.7" stroke="url(#sunGradient)" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- Sun core -->
+    <circle cx="30" cy="30" r="14" fill="url(#sunGradient)" />
+    
+    <!-- Lightning Bolt (Negative space or overlay) -->
+    <path d="M32 18 L24 30 H30 L26 42 L38 28 H30 L32 18Z" fill="white" />
+  </g>
+  
+  <!-- Text Section -->
+  <text x="80" y="52" font-family="Arial, sans-serif" font-weight="bold" font-size="42" fill="#ffffff">
+    Get<tspan fill="#F58220">Power</tspan>
+  </text>
+  
+  <!-- Tagline (Optional) -->
+  <text x="82" y="70" font-family="Arial, sans-serif" font-size="12" fill="#d1d5db" letter-spacing="1">
+    Solar &amp; Power Solutions
+  </text>
+</svg>

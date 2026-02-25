@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1771728120033",
+    "type": "Movable",
+    "title": "貨櫃屋 光＋儲能系統  無人商店",
+    "location": "台南市六甲區",
+    "capacity": "2.4kWp PV + 10kwh 儲能",
+    "year": "2026",
+    "image": "/uploads/1771728656122_LINE_ALBUM_台南-工研院無人商店_260222_1.jpg",
+    "category": "Special",
+    "images": [
+      "/uploads/1771728662016_LINE_ALBUM_台南-工研院無人商店_260222_2.jpg",
+      "/uploads/1771728666277_LINE_ALBUM_台南-工研院無人商店_260222_3.jpg",
+      "/uploads/1771728670257_LINE_ALBUM_台南-工研院無人商店_260222_4.jpg",
+      "/uploads/1771728674354_LINE_ALBUM_台南-工研院無人商店_260222_5.jpg"
+    ]
+  },
+  {
+    "id": "1771729697917",
+    "type": "Flexible",
+    "title": "溫室上軟性太陽能板",
+    "location": "台南市仁德區",
+    "capacity": "10kWp PV",
+    "year": "2025",
+    "image": "/uploads/1771730027633_LINE_ALBUM_完工空拍_260222_1.jpg",
+    "images": [
+      "/uploads/1771730027649_LINE_ALBUM_完工空拍_260222_2.jpg",
+      "/uploads/1771730027667_LINE_NOTE_260222_1.jpg",
+      "/uploads/1771730148896_LINE_ALBUM_完工空拍_260222_5.jpg"
+    ],
+    "category": "Special"
+  },
+  {
+    "id": "1771731937470",
+    "type": "BIPV",
+    "title": "屋頂防水型隔熱棚",
+    "location": "嘉義縣民雄鄉",
+    "capacity": "10kWp",
+    "year": "2025",
+    "image": "/uploads/1771732437119_LINE_ALBUM_防水鋼構_260222_1.jpg",
+    "images": [
+      "/uploads/1771732437128_LINE_ALBUM_防水鋼構_260222_2.jpg"
+    ],
+    "video": "https://youtu.be/380z-UWmGOk",
+    "category": "Special",
+    "videos": [
+      "https://youtu.be/380z-UWmGOk",
+      "https://youtube.com/shorts/HZWJ8R9Y7Tk?feature=share"
+    ]
+  },
+  {
+    "id": "1771740358722",
+    "type": "Factory",
+    "title": "泰元150kWp",
+    "location": "高雄仁武",
+    "capacity": "150kWp",
+    "year": "2025",
+    "image": "/uploads/1771740396815_LINE_ALBUM_空拍_260222_1.jpg",
+    "images": [
+      "/uploads/1771740396835_LINE_ALBUM_空拍_260222_2.jpg",
+      "/uploads/1771740396842_LINE_ALBUM_空拍_260222_3.jpg"
+    ],
+    "videos": [],
+    "category": "New Buildings"
+  }
+]
