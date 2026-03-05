@@ -3,7 +3,7 @@ import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
-import { ChatWidget } from "@/components/ChatWidget";
+import { CrispChat } from "@/components/CrispChat";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -35,7 +35,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <ChatWidget />
+        <CrispChat />
       </body>
     </html>
   );
