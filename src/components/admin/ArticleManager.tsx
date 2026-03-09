@@ -5,6 +5,8 @@ import { Article } from "@/types";
 import { saveArticle, deleteArticle } from "@/app/actions/articleActions";
 import { Trash2, Plus, Edit } from "lucide-react";
 
+import { RichTextEditor } from "./RichTextEditor";
+
 interface ArticleManagerProps {
     initialArticles: Article[];
 }
@@ -129,12 +131,10 @@ export function ArticleManager({ initialArticles }: ArticleManagerProps) {
                             </div>
 
                             <div>
-                                <label className="block text-sm font-medium text-gray-700">內容 (支援 Markdown)</label>
-                                <textarea
-                                    value={currentArticle.content || ""}
-                                    onChange={e => setCurrentArticle({ ...currentArticle, content: e.target.value })}
-                                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 font-mono text-sm"
-                                    rows={10}
+                                <label className="block text-sm font-medium text-gray-700">內容</label>
+                                <RichTextEditor
+                                    content={currentArticle.content || ""}
+                                    onChange={(content) => setCurrentArticle({ ...currentArticle, content })}
                                 />
                             </div>
 

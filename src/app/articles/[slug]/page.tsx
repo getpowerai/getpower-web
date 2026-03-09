@@ -73,7 +73,10 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
                 <article className="prose prose-lg prose-slate mx-auto">
                     {article.content ? (
-                        <ReactMarkdown>{article.content}</ReactMarkdown>
+                        <div
+                            dangerouslySetInnerHTML={{ __html: article.content }}
+                            className="rich-text-content"
+                        />
                     ) : (
                         <p className="text-gray-500 italic">No content available.</p>
                     )}

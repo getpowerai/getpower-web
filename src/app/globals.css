@@ -41,3 +41,33 @@ h6 {
   font-family: var(--font-heading), sans-serif;
   font-weight: 700;
 }
+
+/* Rich Text Editor Content Styling */
+.rich-text-content ul {
+  list-style-type: disc !important;
+  margin-left: 1.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.rich-text-content ol {
+  list-style-type: decimal !important;
+  margin-left: 1.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.rich-text-content blockquote {
+  border-left: 4px solid #e5e7eb !important;
+  padding-left: 1rem !important;
+  font-style: italic !important;
+  margin-bottom: 1rem !important;
+}
+
+.rich-text-content img {
+  border-radius: 0.5rem !important;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1) !important;
+  margin: 2rem 0 !important;
+}
+
+.rich-text-content p {
+  margin-bottom: 1rem !important;
+}
